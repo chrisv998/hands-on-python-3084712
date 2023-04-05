@@ -11,7 +11,7 @@ greet_format = "Hello {}"
 
 if (single == "yes" or "Yes"):
     print(name + " nice you're not single")
-else:
+else if(single == "no" or "No"):
     print(name + " nice you're single")
 
 
